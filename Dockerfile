@@ -1,5 +1,5 @@
 FROM --platform=linux/amd64 ubuntu:latest
-LABEL author="Aleksey Kadnikov aka manhunte <manhunte@student.21-school.ru>"
+LABEL author="zmaierz"
 ENV TZ=Europe/Moscow
 RUN apt-get update && apt-get upgrade && apt-get install -y pkg-config build-essential libudev-dev \
     make \
