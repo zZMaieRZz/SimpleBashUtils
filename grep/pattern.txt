@@ -1,0 +1,11 @@
+test
+CLEAN
+clean
+{
+}
+!
+(
+)
+manhunte
+^#include
+ls

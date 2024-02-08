@@ -1,5 +1,5 @@
 CC=gcc
-CC_FLAGS=-c -Wall -Werror -Wextra -std=c11
+CC_FLAGS=-c -std=c11 -Wall -Werror -Wextra
 BUILD_NAME=s21_grep
 
 all: build
@@ -18,4 +18,5 @@ clean:
 	rm -rf ./*.o
 	rm -rf ./${BUILD_NAME}
 
-test: t_grep.sh clean
+test: t_grep.sh
+	./t_grep.sh

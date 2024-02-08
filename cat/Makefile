@@ -20,5 +20,3 @@ clean:
 
 test: t_cat.sh
 	./t_cat.sh
-	rm -rf ./*.o
-	rm -rf ./${BUILD_NAME}

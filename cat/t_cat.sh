@@ -4,7 +4,7 @@ COUNTER_SUCCESS=0
 COUNTER_FAIL=0
 DIFF_RES=""
 TEST_FILE="bytes.txt"
-# echo "" > log.txt
+echo "" > log.txt
 
 for var in -b -e -n -s -t -v #-E -T --number-nonblank --number --squeeze-blank
 do
@@ -106,4 +106,4 @@ done
 echo "SUCCESS: $COUNTER_SUCCESS"
 echo "FAIL: $COUNTER_FAIL"
 
-exit $COUNTER_FAIL
+exit "$COUNTER_FAIL"
